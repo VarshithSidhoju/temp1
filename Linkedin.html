@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+</head>
+<body>
+    <img src ="logo.png" width="150px" >
+    <style>
+/* body, html {
+    height: 100%;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; Full height of the page */
+}
+
+.box {
+    padding: 20px;
+    /* border: 1px solid #ccc; Box border */
+    background-color: #f9f9f9; /* Light background for the box */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; Optional: rounded corners */
+}
+
+.box h1 {
+    font-size: 2em;
+    margin-bottom: 10px; /* Space between the title and the description */
+}
+
+.box p {
+    font-size: 1.2em;
+}
+.cylinder{
+    background-color: rgb(71, 71, 219);
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer; 
+    border-radius: 50px;
+    width: 300px;
+    font-size: large;
+}
+.cyli{
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: large;
+    width: 300px;
+}
+        
+    </style>
+    <div class="container">
+    <div class="box">
+        
+            <h1>Sign In</h1>
+            <p>Stay updated on your professional world.</p>
+            <!-- <textarea inputmode="Email" cols="50" rows="1" aria-setsize="100px">Email or Phone</textarea> -->
+             <form>
+                <p>
+                    <input type="text" required placeholder="Enter Email or Phone" width="300px">
+                </p>
+                <p>
+                    <input type="password" required placeholder="password" width="300px">
+                </p>
+             </form>
+             <a href="#" color="blue">forgot password</a>
+             <form>
+                <input type ="checkbox" id="Harsha"><label for="Harsha">Keep me logged in</label>
+             </form>
+             <br>
+             
+
+            <button class="cylinder">Sign in</button>
+            <hr>
+            <h6>By clicking Continue, you agree to LinkedIn’s
+            <a href="" color="blue">User Agreement,<br>Privacy Policy</a>and
+            <a href="" color="blue">Cookie Policy</a></h6>
+            <button class="cyli">Continue with Google</button>
+            <br>
+            <br>
+            <button class="cyli">Sign in with Apple</button>
+            <h3>New to Linkedin? 
+            <a href="" color="blue"> Join now</a></h3>
+        </div>
+        </div>
+            
+    </div>
+</body>
+</html>
